@@ -1,0 +1,13 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.main .imgs{
+    width: 99%;
+}
+.main .imgs img{
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0));
+}
