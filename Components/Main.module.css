@@ -11,3 +11,23 @@
 .main .imgs img{
     mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0));
 }
+
+@media (max-width:600px) {
+
+    .main{
+        height: 98vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        
+    }
+
+    .main .imgs{
+
+    }
+    
+    .main .imgs img{
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1));
+    }
+}

@@ -6,6 +6,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Link from 'next/link';
 import MenuIcon from '@mui/icons-material/Menu';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+
 
 
 const Header = () => {
@@ -14,7 +16,8 @@ const Header = () => {
        <div className={styles.header}>
          <div className={styles.upperheader}>  
         <div className={styles.left_header}>
-        <img className={styles.img}src="https://pngimg.com/uploads/amazon/small/amazon_PNG11.png" alt="" />
+            <img className={styles.img1} src="https://icon-library.com/images/white-menu-icon-png/white-menu-icon-png-18.jpg" alt="" />
+        <img className={styles.img2}src="https://pngimg.com/uploads/amazon/small/amazon_PNG11.png" alt="" />
         <div className={styles.location}
         id="location">
             <span>Deliver to</span>
@@ -45,12 +48,12 @@ const Header = () => {
         </div>
         <div className={styles.login}>
             <p style={{color:'#fff',margin:'0px',padding:'0px'}}>
-                <span style={{fontSize:'x-small'}}>Hello,Sign in</span>
-                <h5 style={{margin:'0px',padding:'0px',}}>Accounts & List 
-                <select name="" id="">
-                </select>
-                </h5>
+                <span>Sign in ⟩
+                    <PersonOutlineIcon className={styles.pi}/>
+                 {/* <img src="https://png.pngtree.com/element_our/20190529/ourmid/pngtree-user-icon-image_1187018.jpg" alt="" /> */}
+                 </span>
             </p>
+            <select name="" id=""></select>
         </div>
         <div className={styles.returns}>
             <p style={{color:'#fff',margin:'0px',padding:'0px'}}>
@@ -60,20 +63,34 @@ const Header = () => {
         </div>
         <div className={styles.cart}>
             <span style={{padding:'4px'}} >
-               < ShoppingCartIcon />
+               <ShoppingCartIcon/>
             </span>
-            cart
         </div>
         </div>
         </div>
         <div className={styles.bottomheader}>
-        <Link style={{display:'flex',justifyContent:'center',alignItems:'center',padding:'4px',fontWeight:'bold'}} href={""}><MenuIcon sx={{color:'white'}}/>All</Link>
+        <Link href={""}><MenuIcon sx={{color:'white'}}/>All</Link>
             <Link href={""}>Today's Deals</Link>
             <Link href={""}>Customer's Service</Link>
             <Link href={""}>Registry</Link>
             <Link href={""}>Gift Cards</Link>
-            <Link href={""}>Sell</Link>
+            <Link href={""}>Best seller</Link>
+            <Link href={""}>Books</Link>
+            <Link href={""}>video</Link>
+            <Link href={""}>Music</Link>
+            <Link href={""}>New Realease</Link>
+            <Link href={""}>PC</Link>
         </div>
+
+        <div className={styles.location_mobile}
+        id="location_moblie">
+            <LocationOnIcon sx={{fontSize:'6vw'}}/>
+            <span>Deliver to</span>
+            <h5>India ▼</h5>
+        </div>
+
+
+
        </div>
      );
 }

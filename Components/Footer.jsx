@@ -55,6 +55,35 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            <div className={styles.upperfooter_mobile}>
+                <div className={styles.inneruf}>
+                    <div className={styles.knowus}>
+
+                        <ul>
+                            <li><Link href={""}>Amazon.com</Link></li>
+                            <li><Link href={""}>Your Lists</Link></li>
+                            <li><Link href={""}>Find a Gift</Link></li>
+                            <li><Link href={""}>Browsing History</Link></li>
+                            <li><Link href={""}>Returns</Link></li>
+                        </ul>
+                    </div>
+                    <div className={styles.withus}>
+
+                        <ul>
+                            <li><Link href={""}>Your Orders</Link></li>
+                            <li><Link href={""}>Gift Cards & Registry</Link></li>
+                            <li><Link href={""}>Your Account</Link></li>
+                            <li><Link href={""}>Sell more with Amazon</Link></li>
+                            <li><Link href={""}>Your Recalls and Product Safety Alerts</Link></li>
+                            <li><Link href={""}>Customer Service</Link></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
             <div className={styles.middlefooter}>
                     <span>
                         <div className={styles.logo}>
@@ -69,7 +98,22 @@ const Footer = () => {
                         </span>United States
                      </button>
                 </div>
+
+
+
+
                 <div className={styles.bf}>
+
+                <div className={styles.middlefooter_mobile}>
+                    <button style={{backgroundColor:"#131A22",color:'lightgray',fontSize:'small',marginRight:'20px',cursor:'pointer',height:'2.5em'}}><span><LanguageIcon style={{fontSize:"medium",padding:'0px 6px'}}/></span>English</button>
+                    <button style={{backgroundColor:'#131A22',color:'lightgray',fontSize:'small',marginRight:'20px',cursor:'pointer',height:'2.5em'}}><span><AttachMoneyIcon style={{fontSize:'medium',paddingRight:'0px 6px'}}/></span>USD-U.S.Doller</button>
+                    <button style={{backgroundColor:'#131A22',color:'lightgray',fontSize:'small',cursor:'pointer',height:'2.5em'}}>
+                        <span>
+                          <img style={{width:'30px',padding:'1px 6px'}} src="https://pngimg.com/uploads/flags/flags_PNG14592.png" alt="" />
+                        </span>United States
+                     </button>
+                </div>
+
                     <div className={styles.innerbf}>
                         <table >
                          {/* row no .1 */}
@@ -195,6 +239,12 @@ const Footer = () => {
                             </tr>
                         </table>
                     </div>
+
+                    <div className={styles.innerbf_mobile}>
+                        <Link href={""}>Already a customer? Sign in</Link>
+                    </div>
+
+                    
                     <div className={styles.innerbf2}>
                         <ul>
                             <li> <Link href={""}>Conditions of Use</Link> </li>
@@ -203,6 +253,17 @@ const Footer = () => {
                         </ul>
                         <span>copyright 1996-2023,Amazon.com,Inc.or its Affilites</span>
                     </div>
+
+                    <div className={styles.innerbf2_mobile}>
+                        <ul>
+                            <li> <Link href={""}>Conditions of Use</Link> </li>
+                            <li> <Link href={""}>Privacy Notice</Link> </li>
+                            <li> <Link href={""}>Your Ads Privacy Choices</Link> </li>
+                        </ul>
+                        <span>copyright 1996-2023,Amazon.com,Inc.or its Affilites</span>
+                    </div>
+
+
                 </div>
         </div>
      );

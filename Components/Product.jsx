@@ -24,6 +24,28 @@ const Product = () => {
                 </div>
                 <Link href={""}>see more</Link>
             </div>
+
+
+            <div className={styles.prod5_mobile}>
+                <h3>Gaming Accesories</h3>
+               <div className={styles.innerimgs}>
+                <div className={styles.innerimg1}>
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" alt=""/>headset
+                </div>
+                <div className={styles.innerimg2}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" alt=""/>keyboard
+                </div>
+                <div className={styles.innerimg3}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" alt=""/>mouse
+                </div>
+                <div className={styles.innerimg4}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg" alt=""/>chairs
+                </div>
+                </div>
+                <Link href={""}>see more</Link>
+            </div>
+
+
             <div className={styles.prod4}>
                 <h3>Toys Under $30</h3>
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469244_2584128_379x304_1X_en_US._SY304_CB609318944_.jpg" alt="" />
@@ -49,6 +71,9 @@ const Product = () => {
           <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" alt="" /> 
           <Link href={""}>see more</Link>
         </div>
+
+
+
         <div className={styles.prod7}>
         <div className={styles.dealsimgs}>
             <h3>Shop deals in Fashion</h3>
@@ -67,6 +92,31 @@ const Product = () => {
             <Link href={""}>see all deals</Link>
         </div>
         </div>
+
+
+        <div className={styles.prod7_moblie}>
+        <div className={styles.dealsimgs}>
+            <h3>Shop deals in Fashion</h3>
+            <div className={styles.dealimg1}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg" alt="" />Jeans under $50
+            </div>
+            <div className={styles.dealimg2}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg" alt="" />Tops under $25
+            </div>
+            <div className={styles.dealimg3}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg" alt="" />Dresses under $30
+            </div>
+            <div className={styles.dealimg4}>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg" alt="" />shoes under $50
+            </div>
+            <Link href={""}>see all deals</Link>
+        </div>
+        </div>
+
+
+
+
+
         <div className={styles.prod8}>
             <div className={styles.spaceimgs}>
             <h3>Refresh your space</h3>
@@ -85,6 +135,30 @@ const Product = () => {
             <Link href={""}>See more</Link>
             </div>
         </div>
+
+
+        <div className={styles.prod8_mobile}>
+            <div className={styles.spaceimgs}>
+            <h3>Refresh your space</h3>
+                <div className={styles.spaceimg1}>
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg" alt="" />Dining
+                </div>
+                <div className={styles.spaceimg2}>
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg" alt="" />Home
+                </div>
+                <div className={styles.spaceimg3}>
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg" alt="" />Kitchen
+                </div>
+                <div className={styles.spaceimg4}>
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg" alt="" />Health and Beauty
+                </div>
+            <Link href={""}>See more</Link>
+            </div>
+        </div>
+
+
+
+
         <div className={styles.prod9}>
         <div className={styles.exinfo}>
                <h3>Exciting deals</h3>
